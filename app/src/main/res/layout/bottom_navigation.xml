@@ -76,7 +76,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/crypto"
+                android:id="@+id/ll_discover"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:gravity="center"
@@ -98,7 +98,7 @@
                     android:textStyle="bold" />
             </LinearLayout>
             <LinearLayout
-                android:id="@+id/calender"
+                android:id="@+id/ll_watch"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:gravity="center"
@@ -120,6 +120,7 @@
         </LinearLayout>
     </RelativeLayout>
     <ImageView
+        android:id="@+id/btn_me_bottom"
         android:layout_width="73dp"
         android:layout_height="55dp"
         android:layout_centerHorizontal="true"
